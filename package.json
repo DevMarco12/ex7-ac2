@@ -1,0 +1,19 @@
+{
+  "name": "angularexemplo1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafaelmoreno29/20212_ProgramacaoWeb.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rafaelmoreno29/20212_ProgramacaoWeb/issues"
+  },
+  "homepage": "https://github.com/rafaelmoreno29/20212_ProgramacaoWeb#readme",
+  "description": ""
+}

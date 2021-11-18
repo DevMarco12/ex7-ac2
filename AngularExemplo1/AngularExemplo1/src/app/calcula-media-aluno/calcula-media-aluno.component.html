@@ -1,0 +1,39 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h1>Calcular Média Aluno - AC2 (Atividade 7)</h1>
+            <!--Crie um componente angular para calcular média e mostrar se o aluno está aprovado ou reprovado. Para isso o 
+                usuário deverá digitar as notas: AC1, AC2, AG e AF. Considere aprovado quem tiver média superior ou igual a 5.-->
+
+            <div class="mb-3">
+                <label for="avaliacao1" style="margin-top: 50px;" class="form-label"><b>AC1 (Avaliação Continuada
+                        1)</b></label>
+                <input type="number" class="form-control" id="avaliacao1" name="avaliacao1" [(ngModel)]="avaliacao1">
+            </div>
+            <div class="mb-3">
+                <label for="avaliacao2" class="form-label"><b>AC2 (Avaliação Continuada 2)</b></label>
+                <input type="number" class="form-control" id="avaliacao2" name="avaliacao2" [(ngModel)]="avaliacao2">
+            </div>
+            <div class="mb-3">
+                <label for="testeProgresso" class="form-label"><b>AG (Teste de Progresso)</b></label>
+                <input type="number" class="form-control" id="testeProgresso" name="testeProgresso"
+                    [(ngModel)]="testeProgresso">
+            </div>
+            <div class="mb-3">
+                <label for="avaliacaoFinal" class="form-label"><b>AF (Avaliação Final)</b></label>
+                <input type="number" class="form-control" id="avaliacaoFinal" name="avaliacaoFinal"
+                    [(ngModel)]="avaliacaoFinal">
+            </div>
+            <button class="btn btn-primary" style="background-color: aquamarine; color: #000; margin-bottom: 60px;"
+                (click)="calcularMediaAluno()"><b>Verificar Condição!</b></button>
+
+            <!-- Média Final = (AC1 * 0,15) + (AC2 *0,30) + (AG * 0,10) + (AF * 0,45) -->
+            <div *ngIf="mediaFinal >= 5" class="alert alert-success" role="alert">
+                Você está APROVADO!
+            </div>
+            <div *ngIf="mediaFinal < 5" class="alert alert-danger" role="alert">
+                Você está REPROVADO!
+            </div>
+        </div>
+    </div>
+</div>

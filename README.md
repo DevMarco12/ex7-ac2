@@ -4,12 +4,12 @@
 
 <h2>Print da Tela</h2>
 
-![image](https://user-images.githubusercontent.com/63882166/142511768-0aa63d5a-4d0a-45f3-87cc-37912b74aabf.png)
+![image](https://user-images.githubusercontent.com/63882166/142516708-2adfcfe3-eeb3-45d1-a23a-d2f6317bae81.png)
 
 <h2>Print com Aluno Reprovado</h2>
 
-![image](https://user-images.githubusercontent.com/63882166/142511809-5813a33c-932c-4247-8ac3-118e5bb7fc9d.png)
+![image](https://user-images.githubusercontent.com/63882166/142516620-1947a584-397f-4ef3-9531-06dfabb1d69e.png)
 
 <h2>Print com Aluno Aprovado</h2>
 
-![image](https://user-images.githubusercontent.com/63882166/142511849-a46b6567-fdc1-4a28-a69d-9bb275bb5f1d.png)
+![image](https://user-images.githubusercontent.com/63882166/142516679-72ac2760-db2f-4cd2-abaa-16e11adef8cf.png)
